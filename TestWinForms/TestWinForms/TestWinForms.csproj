@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CF72032E-0D00-4564-B069-92468E1818F8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>TestWinForms</RootNamespace>
+    <AssemblyName>TestWinForms</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CSkin, Version=16.1.14.2, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\CSkin.dll</HintPath>
+    </Reference>
+    <Reference Include="Oracle.ManagedDataAccess, Version=4.122.1.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=MSIL">
+      <HintPath>..\packages\Oracle.ManagedDataAccess.12.2.1100\lib\net40\Oracle.ManagedDataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BlogDataSet.cs">
+      <DependentUpon>BlogDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BlogDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BlogDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Component1.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Component1.Designer.cs">
+      <DependentUpon>Component1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Configini.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Configini.Designer.cs">
+      <DependentUpon>Configini.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FontConfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FontConfig.Designer.cs">
+      <DependentUpon>FontConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCardTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCardTest.Designer.cs">
+      <DependentUpon>FormCardTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormComboBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormComboBox.Designer.cs">
+      <DependentUpon>FormComboBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDataGridView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDataGridView.Designer.cs">
+      <DependentUpon>FormDataGridView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDataGridView2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDataGridView2.Designer.cs">
+      <DependentUpon>FormDataGridView2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDataGridView3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDataGridView3.Designer.cs">
+      <DependentUpon>FormDataGridView3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDataGridView4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDataGridView4.Designer.cs">
+      <DependentUpon>FormDataGridView4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDataGridView5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDataGridView5.Designer.cs">
+      <DependentUpon>FormDataGridView5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormInsuranceTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormInsuranceTest.Designer.cs">
+      <DependentUpon>FormInsuranceTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_UserControl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_UserControl.Designer.cs">
+      <DependentUpon>Form_UserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TreeView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TreeView.Designer.cs">
+      <DependentUpon>TreeView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl1.Designer.cs">
+      <DependentUpon>UserControl1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInfo.cs" />
+    <Compile Include="DataBaseConfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataBaseConfig.Designer.cs">
+      <DependentUpon>DataBaseConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Configini.resx">
+      <DependentUpon>Configini.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataBaseConfig.resx">
+      <DependentUpon>DataBaseConfig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FontConfig.resx">
+      <DependentUpon>FontConfig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCardTest.resx">
+      <DependentUpon>FormCardTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormComboBox.resx">
+      <DependentUpon>FormComboBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDataGridView.resx">
+      <DependentUpon>FormDataGridView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDataGridView2.resx">
+      <DependentUpon>FormDataGridView2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDataGridView3.resx">
+      <DependentUpon>FormDataGridView3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDataGridView4.resx">
+      <DependentUpon>FormDataGridView4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDataGridView5.resx">
+      <DependentUpon>FormDataGridView5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormInsuranceTest.resx">
+      <DependentUpon>FormInsuranceTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_UserControl.resx">
+      <DependentUpon>Form_UserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="TreeView.resx">
+      <DependentUpon>TreeView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl1.resx">
+      <DependentUpon>UserControl1.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="BlogDataSet.xsc">
+      <DependentUpon>BlogDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="BlogDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BlogDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BlogDataSet.xss">
+      <DependentUpon>BlogDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AutoLotDAL\AutoLotDAL.csproj">
+      <Project>{6f45799a-6a74-4f8b-9e20-7b5508aedd40}</Project>
+      <Name>AutoLotDAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Insurance\Insurance.csproj">
+      <Project>{7a56d03f-75ce-4a72-b8bd-7f4f1e6b69a7}</Project>
+      <Name>Insurance</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TestLib\TestLib.csproj">
+      <Project>{67547C09-420F-48BE-A872-F40AC93189F1}</Project>
+      <Name>TestLib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DLL\CSkin.dll" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

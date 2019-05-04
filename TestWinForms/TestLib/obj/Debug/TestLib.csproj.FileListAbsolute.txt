@@ -1,0 +1,22 @@
+C:\Users\36093\Documents\Visual Studio 2017\Projects\TestWinForms\TestLib\bin\Debug\TestLib.dll
+C:\Users\36093\Documents\Visual Studio 2017\Projects\TestWinForms\TestLib\bin\Debug\TestLib.pdb
+C:\Users\36093\Documents\Visual Studio 2017\Projects\TestWinForms\TestLib\obj\Debug\TestLib.UserControl21.resources
+C:\Users\36093\Documents\Visual Studio 2017\Projects\TestWinForms\TestLib\obj\Debug\TestLib.csproj.GenerateResource.cache
+C:\Users\36093\Documents\Visual Studio 2017\Projects\TestWinForms\TestLib\obj\Debug\TestLib.csproj.CoreCompileInputs.cache
+C:\Users\36093\Documents\Visual Studio 2017\Projects\TestWinForms\TestLib\obj\Debug\TestLib.dll
+C:\Users\36093\Documents\Visual Studio 2017\Projects\TestWinForms\TestLib\obj\Debug\TestLib.pdb
+D:\TianJian\SoureCode\C#\TestWinForms\TestLib\bin\Debug\TestLib.dll
+D:\TianJian\SoureCode\C#\TestWinForms\TestLib\bin\Debug\TestLib.pdb
+D:\TianJian\SoureCode\C#\TestWinForms\TestLib\obj\Debug\TestLib.UserControl21.resources
+D:\TianJian\SoureCode\C#\TestWinForms\TestLib\obj\Debug\TestLib.csproj.GenerateResource.cache
+D:\TianJian\SoureCode\C#\TestWinForms\TestLib\obj\Debug\TestLib.csproj.CoreCompileInputs.cache
+D:\TianJian\SoureCode\C#\TestWinForms\TestLib\obj\Debug\TestLib.dll
+D:\TianJian\SoureCode\C#\TestWinForms\TestLib\obj\Debug\TestLib.pdb
+D:\BackUp\Test\TestWinForms\TestLib\bin\Debug\TestLib.dll
+D:\BackUp\Test\TestWinForms\TestLib\bin\Debug\TestLib.pdb
+D:\BackUp\Test\TestWinForms\TestLib\obj\Debug\TestLib.csprojAssemblyReference.cache
+D:\BackUp\Test\TestWinForms\TestLib\obj\Debug\TestLib.UserControl21.resources
+D:\BackUp\Test\TestWinForms\TestLib\obj\Debug\TestLib.csproj.GenerateResource.cache
+D:\BackUp\Test\TestWinForms\TestLib\obj\Debug\TestLib.csproj.CoreCompileInputs.cache
+D:\BackUp\Test\TestWinForms\TestLib\obj\Debug\TestLib.dll
+D:\BackUp\Test\TestWinForms\TestLib\obj\Debug\TestLib.pdb

@@ -1,0 +1,11 @@
+D:\TianJian\SoureCode\C#\TestWinForms\AutoLotDAL\bin\Debug\AutoLotDAL.dll
+D:\TianJian\SoureCode\C#\TestWinForms\AutoLotDAL\bin\Debug\AutoLotDAL.pdb
+D:\TianJian\SoureCode\C#\TestWinForms\AutoLotDAL\obj\Debug\AutoLotDAL.csproj.CoreCompileInputs.cache
+D:\TianJian\SoureCode\C#\TestWinForms\AutoLotDAL\obj\Debug\AutoLotDAL.dll
+D:\TianJian\SoureCode\C#\TestWinForms\AutoLotDAL\obj\Debug\AutoLotDAL.pdb
+D:\BackUp\Test\TestWinForms\AutoLotDAL\bin\Debug\AutoLotDAL.dll
+D:\BackUp\Test\TestWinForms\AutoLotDAL\bin\Debug\AutoLotDAL.pdb
+D:\BackUp\Test\TestWinForms\AutoLotDAL\obj\Debug\AutoLotDAL.csprojAssemblyReference.cache
+D:\BackUp\Test\TestWinForms\AutoLotDAL\obj\Debug\AutoLotDAL.csproj.CoreCompileInputs.cache
+D:\BackUp\Test\TestWinForms\AutoLotDAL\obj\Debug\AutoLotDAL.dll
+D:\BackUp\Test\TestWinForms\AutoLotDAL\obj\Debug\AutoLotDAL.pdb

@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7A56D03F-75CE-4A72-B8BD-7F4F1E6B69A7}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Insurance</RootNamespace>
+    <AssemblyName>Insurance</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Neusoft\Business\InsuranceNeusoft.cs" />
+    <Compile Include="City\InsuranceNeusoftTransactionChangGe.cs" />
+    <Compile Include="Comm\InsuranceNeusoftBase.cs" />
+    <Compile Include="Comm\InsuranceNeusoftTransaction.cs" />
+    <Compile Include="Neusoft\Factory\RegistrationFactory.cs" />
+    <Compile Include="Neusoft\Factory\TransactionFactory.cs" />
+    <Compile Include="Interface\IInsuranceNeusoft.cs" />
+    <Compile Include="Interface\IInsuranceNeusoftParameter.cs" />
+    <Compile Include="Interface\IInsuranceNeusoftRegistration.cs" />
+    <Compile Include="Interface\IInsuranceNeusoftTransaction.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Neusoft\Registration\RegistrationBase.cs" />
+    <Compile Include="Neusoft\Registration\RegistrationChangGe.cs" />
+    <Compile Include="Neusoft\Registration\RegistrationZhengZhou.cs" />
+    <Compile Include="Neusoft\Transaction\TransactionBase.cs" />
+    <Compile Include="Neusoft\Transaction\TransactionChangGe.cs" />
+    <Compile Include="Neusoft\Transaction\TransactionZhengZhou.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Neusoft\Forms\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

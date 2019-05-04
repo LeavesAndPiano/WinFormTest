@@ -1,0 +1,12 @@
+D:\TianJian\SoureCode\C#\TestWinForms\Insurance\bin\Debug\Insurance.dll
+D:\TianJian\SoureCode\C#\TestWinForms\Insurance\bin\Debug\Insurance.pdb
+D:\TianJian\SoureCode\C#\TestWinForms\Insurance\obj\Debug\Insurance.csproj.CoreCompileInputs.cache
+D:\TianJian\SoureCode\C#\TestWinForms\Insurance\obj\Debug\Insurance.dll
+D:\TianJian\SoureCode\C#\TestWinForms\Insurance\obj\Debug\Insurance.pdb
+D:\TianJian\SoureCode\C#\TestWinForms\Insurance\obj\Debug\Insurance.csprojAssemblyReference.cache
+D:\BackUp\Test\TestWinForms\Insurance\bin\Debug\Insurance.dll
+D:\BackUp\Test\TestWinForms\Insurance\bin\Debug\Insurance.pdb
+D:\BackUp\Test\TestWinForms\Insurance\obj\Debug\Insurance.csprojAssemblyReference.cache
+D:\BackUp\Test\TestWinForms\Insurance\obj\Debug\Insurance.csproj.CoreCompileInputs.cache
+D:\BackUp\Test\TestWinForms\Insurance\obj\Debug\Insurance.dll
+D:\BackUp\Test\TestWinForms\Insurance\obj\Debug\Insurance.pdb
