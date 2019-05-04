@@ -20,3 +20,11 @@ D:\BackUp\Test\TestWinForms\TestLib\obj\Debug\TestLib.csproj.GenerateResource.ca
 D:\BackUp\Test\TestWinForms\TestLib\obj\Debug\TestLib.csproj.CoreCompileInputs.cache
 D:\BackUp\Test\TestWinForms\TestLib\obj\Debug\TestLib.dll
 D:\BackUp\Test\TestWinForms\TestLib\obj\Debug\TestLib.pdb
+C:\Git\WinFormTest\TestWinForms\TestLib\bin\Debug\TestLib.dll
+C:\Git\WinFormTest\TestWinForms\TestLib\bin\Debug\TestLib.pdb
+C:\Git\WinFormTest\TestWinForms\TestLib\obj\Debug\TestLib.csprojAssemblyReference.cache
+C:\Git\WinFormTest\TestWinForms\TestLib\obj\Debug\TestLib.UserControl21.resources
+C:\Git\WinFormTest\TestWinForms\TestLib\obj\Debug\TestLib.csproj.GenerateResource.cache
+C:\Git\WinFormTest\TestWinForms\TestLib\obj\Debug\TestLib.csproj.CoreCompileInputs.cache
+C:\Git\WinFormTest\TestWinForms\TestLib\obj\Debug\TestLib.dll
+C:\Git\WinFormTest\TestWinForms\TestLib\obj\Debug\TestLib.pdb

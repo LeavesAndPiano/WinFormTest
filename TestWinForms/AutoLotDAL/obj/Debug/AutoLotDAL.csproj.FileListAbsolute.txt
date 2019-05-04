@@ -9,3 +9,9 @@ D:\BackUp\Test\TestWinForms\AutoLotDAL\obj\Debug\AutoLotDAL.csprojAssemblyRefere
 D:\BackUp\Test\TestWinForms\AutoLotDAL\obj\Debug\AutoLotDAL.csproj.CoreCompileInputs.cache
 D:\BackUp\Test\TestWinForms\AutoLotDAL\obj\Debug\AutoLotDAL.dll
 D:\BackUp\Test\TestWinForms\AutoLotDAL\obj\Debug\AutoLotDAL.pdb
+C:\Git\WinFormTest\TestWinForms\AutoLotDAL\bin\Debug\AutoLotDAL.dll
+C:\Git\WinFormTest\TestWinForms\AutoLotDAL\bin\Debug\AutoLotDAL.pdb
+C:\Git\WinFormTest\TestWinForms\AutoLotDAL\obj\Debug\AutoLotDAL.csprojAssemblyReference.cache
+C:\Git\WinFormTest\TestWinForms\AutoLotDAL\obj\Debug\AutoLotDAL.csproj.CoreCompileInputs.cache
+C:\Git\WinFormTest\TestWinForms\AutoLotDAL\obj\Debug\AutoLotDAL.dll
+C:\Git\WinFormTest\TestWinForms\AutoLotDAL\obj\Debug\AutoLotDAL.pdb

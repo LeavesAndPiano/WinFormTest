@@ -10,3 +10,9 @@ D:\BackUp\Test\TestWinForms\Insurance\obj\Debug\Insurance.csprojAssemblyReferenc
 D:\BackUp\Test\TestWinForms\Insurance\obj\Debug\Insurance.csproj.CoreCompileInputs.cache
 D:\BackUp\Test\TestWinForms\Insurance\obj\Debug\Insurance.dll
 D:\BackUp\Test\TestWinForms\Insurance\obj\Debug\Insurance.pdb
+C:\Git\WinFormTest\TestWinForms\Insurance\bin\Debug\Insurance.dll
+C:\Git\WinFormTest\TestWinForms\Insurance\bin\Debug\Insurance.pdb
+C:\Git\WinFormTest\TestWinForms\Insurance\obj\Debug\Insurance.csprojAssemblyReference.cache
+C:\Git\WinFormTest\TestWinForms\Insurance\obj\Debug\Insurance.csproj.CoreCompileInputs.cache
+C:\Git\WinFormTest\TestWinForms\Insurance\obj\Debug\Insurance.dll
+C:\Git\WinFormTest\TestWinForms\Insurance\obj\Debug\Insurance.pdb
