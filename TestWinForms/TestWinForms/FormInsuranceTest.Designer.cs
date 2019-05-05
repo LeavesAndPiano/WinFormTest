@@ -42,9 +42,10 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(879, 48);
+            this.button1.Location = new System.Drawing.Point(586, 30);
+            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(140, 79);
+            this.button1.Size = new System.Drawing.Size(93, 49);
             this.button1.TabIndex = 0;
             this.button1.Text = "签到";
             this.button1.UseVisualStyleBackColor = true;
@@ -52,33 +53,37 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(580, 72);
+            this.textBox1.Location = new System.Drawing.Point(387, 45);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(276, 35);
+            this.textBox1.Size = new System.Drawing.Size(185, 25);
             this.textBox1.TabIndex = 1;
             // 
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(133, 80);
+            this.comboBox1.Location = new System.Drawing.Point(89, 50);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(180, 32);
+            this.comboBox1.Size = new System.Drawing.Size(121, 23);
             this.comboBox1.TabIndex = 2;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(45, 83);
+            this.label1.Location = new System.Drawing.Point(30, 52);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(82, 24);
+            this.label1.Size = new System.Drawing.Size(52, 15);
             this.label1.TabIndex = 3;
             this.label1.Text = "医保：";
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(879, 164);
+            this.button2.Location = new System.Drawing.Point(586, 102);
+            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(105, 63);
+            this.button2.Size = new System.Drawing.Size(70, 39);
             this.button2.TabIndex = 4;
             this.button2.Text = "初始化";
             this.button2.UseVisualStyleBackColor = true;
@@ -86,9 +91,10 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(661, 352);
+            this.button3.Location = new System.Drawing.Point(441, 220);
+            this.button3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(239, 50);
+            this.button3.Size = new System.Drawing.Size(159, 31);
             this.button3.TabIndex = 5;
             this.button3.Text = "取头部字符串";
             this.button3.UseVisualStyleBackColor = true;
@@ -96,23 +102,26 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(49, 352);
+            this.textBox2.Location = new System.Drawing.Point(33, 220);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(556, 35);
+            this.textBox2.Size = new System.Drawing.Size(372, 25);
             this.textBox2.TabIndex = 6;
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(49, 452);
+            this.textBox3.Location = new System.Drawing.Point(33, 282);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(556, 35);
+            this.textBox3.Size = new System.Drawing.Size(372, 25);
             this.textBox3.TabIndex = 7;
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(661, 442);
+            this.button4.Location = new System.Drawing.Point(441, 276);
+            this.button4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(239, 50);
+            this.button4.Size = new System.Drawing.Size(159, 31);
             this.button4.TabIndex = 8;
             this.button4.Text = "挂号";
             this.button4.UseVisualStyleBackColor = true;
@@ -120,18 +129,19 @@
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(560, 203);
+            this.button5.Location = new System.Drawing.Point(373, 127);
+            this.button5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(156, 43);
+            this.button5.Size = new System.Drawing.Size(104, 27);
             this.button5.TabIndex = 9;
-            this.button5.Text = "button5";
+            this.button5.Text = "Git测试";
             this.button5.UseVisualStyleBackColor = true;
             // 
             // FormInsuranceTest
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 24F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1300, 826);
+            this.ClientSize = new System.Drawing.Size(867, 516);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.textBox3);
@@ -142,6 +152,7 @@
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "FormInsuranceTest";
             this.Text = "FormInsuranceTest";
             this.ResumeLayout(false);

@@ -16,3 +16,9 @@ C:\Git\WinFormTest\TestWinForms\Insurance\obj\Debug\Insurance.csprojAssemblyRefe
 C:\Git\WinFormTest\TestWinForms\Insurance\obj\Debug\Insurance.csproj.CoreCompileInputs.cache
 C:\Git\WinFormTest\TestWinForms\Insurance\obj\Debug\Insurance.dll
 C:\Git\WinFormTest\TestWinForms\Insurance\obj\Debug\Insurance.pdb
+E:\YYQQ\Git\WinFormTest\TestWinForms\Insurance\bin\Debug\Insurance.dll
+E:\YYQQ\Git\WinFormTest\TestWinForms\Insurance\bin\Debug\Insurance.pdb
+E:\YYQQ\Git\WinFormTest\TestWinForms\Insurance\obj\Debug\Insurance.csprojAssemblyReference.cache
+E:\YYQQ\Git\WinFormTest\TestWinForms\Insurance\obj\Debug\Insurance.csproj.CoreCompileInputs.cache
+E:\YYQQ\Git\WinFormTest\TestWinForms\Insurance\obj\Debug\Insurance.dll
+E:\YYQQ\Git\WinFormTest\TestWinForms\Insurance\obj\Debug\Insurance.pdb
