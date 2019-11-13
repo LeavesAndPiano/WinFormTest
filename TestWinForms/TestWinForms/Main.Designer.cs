@@ -48,8 +48,11 @@
             this.一卡通测试ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.高级控件ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.treeView资源管理ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.backgroundWorkerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.自定义控件ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.用户自定义ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.医保测试ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.医保测试ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.tsslUser = new System.Windows.Forms.ToolStripStatusLabel();
             this.tsslDatetime = new System.Windows.Forms.ToolStripStatusLabel();
@@ -70,8 +73,7 @@
             this.帮助LToolStripButton = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.医保测试ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.医保测试ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.tabcontrolToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             this.contextMenuStrip1.SuspendLayout();
@@ -93,7 +95,8 @@
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.MdiWindowListItem = this.帮助ToolStripMenuItem;
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1308, 42);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 1, 0, 1);
+            this.menuStrip1.Size = new System.Drawing.Size(872, 26);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -105,54 +108,55 @@
             this.toolStripSeparator2,
             this.程序字体设置ToolStripMenuItem});
             this.配置ToolStripMenuItem.Name = "配置ToolStripMenuItem";
-            this.配置ToolStripMenuItem.Size = new System.Drawing.Size(74, 38);
+            this.配置ToolStripMenuItem.Size = new System.Drawing.Size(51, 24);
             this.配置ToolStripMenuItem.Text = "配置";
             // 
             // 数据库ToolStripMenuItem
             // 
             this.数据库ToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("数据库ToolStripMenuItem.Image")));
             this.数据库ToolStripMenuItem.Name = "数据库ToolStripMenuItem";
-            this.数据库ToolStripMenuItem.Size = new System.Drawing.Size(280, 38);
+            this.数据库ToolStripMenuItem.Size = new System.Drawing.Size(189, 26);
             this.数据库ToolStripMenuItem.Text = "数据库";
             this.数据库ToolStripMenuItem.Click += new System.EventHandler(this.数据库ToolStripMenuItem_Click);
             // 
             // 程序自定义设置ToolStripMenuItem
             // 
             this.程序自定义设置ToolStripMenuItem.Name = "程序自定义设置ToolStripMenuItem";
-            this.程序自定义设置ToolStripMenuItem.Size = new System.Drawing.Size(280, 38);
+            this.程序自定义设置ToolStripMenuItem.Size = new System.Drawing.Size(189, 26);
             this.程序自定义设置ToolStripMenuItem.Text = "程序自定义设置";
             this.程序自定义设置ToolStripMenuItem.Click += new System.EventHandler(this.程序自定义设置ToolStripMenuItem_Click);
             // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(277, 6);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(186, 6);
             // 
             // 程序字体设置ToolStripMenuItem
             // 
             this.程序字体设置ToolStripMenuItem.Name = "程序字体设置ToolStripMenuItem";
-            this.程序字体设置ToolStripMenuItem.Size = new System.Drawing.Size(280, 38);
+            this.程序字体设置ToolStripMenuItem.Size = new System.Drawing.Size(189, 26);
             this.程序字体设置ToolStripMenuItem.Text = "程序字体设置";
             this.程序字体设置ToolStripMenuItem.Click += new System.EventHandler(this.程序字体设置ToolStripMenuItem_Click);
             // 
             // 帮助ToolStripMenuItem
             // 
             this.帮助ToolStripMenuItem.Name = "帮助ToolStripMenuItem";
-            this.帮助ToolStripMenuItem.Size = new System.Drawing.Size(74, 38);
+            this.帮助ToolStripMenuItem.Size = new System.Drawing.Size(51, 24);
             this.帮助ToolStripMenuItem.Text = "帮助";
             // 
             // 基础控件ToolStripMenuItem
             // 
             this.基础控件ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.comboBoxToolStripMenuItem});
+            this.comboBoxToolStripMenuItem,
+            this.tabcontrolToolStripMenuItem});
             this.基础控件ToolStripMenuItem.Name = "基础控件ToolStripMenuItem";
-            this.基础控件ToolStripMenuItem.Size = new System.Drawing.Size(122, 38);
+            this.基础控件ToolStripMenuItem.Size = new System.Drawing.Size(81, 24);
             this.基础控件ToolStripMenuItem.Text = "基础控件";
             // 
             // comboBoxToolStripMenuItem
             // 
             this.comboBoxToolStripMenuItem.Name = "comboBoxToolStripMenuItem";
-            this.comboBoxToolStripMenuItem.Size = new System.Drawing.Size(233, 38);
+            this.comboBoxToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
             this.comboBoxToolStripMenuItem.Text = "comboBox";
             this.comboBoxToolStripMenuItem.Click += new System.EventHandler(this.comboBoxToolStripMenuItem_Click);
             // 
@@ -166,80 +170,103 @@
             this.增删查改ToolStripMenuItem,
             this.一卡通测试ToolStripMenuItem});
             this.数据控件ToolStripMenuItem.Name = "数据控件ToolStripMenuItem";
-            this.数据控件ToolStripMenuItem.Size = new System.Drawing.Size(122, 38);
+            this.数据控件ToolStripMenuItem.Size = new System.Drawing.Size(81, 24);
             this.数据控件ToolStripMenuItem.Text = "数据控件";
             // 
             // dataGridView直连ToolStripMenuItem
             // 
             this.dataGridView直连ToolStripMenuItem.Name = "dataGridView直连ToolStripMenuItem";
-            this.dataGridView直连ToolStripMenuItem.Size = new System.Drawing.Size(369, 38);
+            this.dataGridView直连ToolStripMenuItem.Size = new System.Drawing.Size(247, 26);
             this.dataGridView直连ToolStripMenuItem.Text = "DataGridView_直连";
             this.dataGridView直连ToolStripMenuItem.Click += new System.EventHandler(this.dataGridView直连ToolStripMenuItem_Click);
             // 
             // dataGridView断连ToolStripMenuItem
             // 
             this.dataGridView断连ToolStripMenuItem.Name = "dataGridView断连ToolStripMenuItem";
-            this.dataGridView断连ToolStripMenuItem.Size = new System.Drawing.Size(369, 38);
+            this.dataGridView断连ToolStripMenuItem.Size = new System.Drawing.Size(247, 26);
             this.dataGridView断连ToolStripMenuItem.Text = "DataGridView_断连";
             this.dataGridView断连ToolStripMenuItem.Click += new System.EventHandler(this.dataGridView断连ToolStripMenuItem_Click);
             // 
             // dataGridViewDataSetToolStripMenuItem
             // 
             this.dataGridViewDataSetToolStripMenuItem.Name = "dataGridViewDataSetToolStripMenuItem";
-            this.dataGridViewDataSetToolStripMenuItem.Size = new System.Drawing.Size(369, 38);
+            this.dataGridViewDataSetToolStripMenuItem.Size = new System.Drawing.Size(247, 26);
             this.dataGridViewDataSetToolStripMenuItem.Text = "DataGridView_DataSet";
             this.dataGridViewDataSetToolStripMenuItem.Click += new System.EventHandler(this.dataGridViewDataSetToolStripMenuItem_Click);
             // 
             // dataGridView适配器ToolStripMenuItem
             // 
             this.dataGridView适配器ToolStripMenuItem.Name = "dataGridView适配器ToolStripMenuItem";
-            this.dataGridView适配器ToolStripMenuItem.Size = new System.Drawing.Size(369, 38);
+            this.dataGridView适配器ToolStripMenuItem.Size = new System.Drawing.Size(247, 26);
             this.dataGridView适配器ToolStripMenuItem.Text = "DataGridView_适配器";
             this.dataGridView适配器ToolStripMenuItem.Click += new System.EventHandler(this.dataGridView适配器ToolStripMenuItem_Click);
             // 
             // 增删查改ToolStripMenuItem
             // 
             this.增删查改ToolStripMenuItem.Name = "增删查改ToolStripMenuItem";
-            this.增删查改ToolStripMenuItem.Size = new System.Drawing.Size(369, 38);
+            this.增删查改ToolStripMenuItem.Size = new System.Drawing.Size(247, 26);
             this.增删查改ToolStripMenuItem.Text = "增删查改";
             this.增删查改ToolStripMenuItem.Click += new System.EventHandler(this.增删查改ToolStripMenuItem_Click);
             // 
             // 一卡通测试ToolStripMenuItem
             // 
             this.一卡通测试ToolStripMenuItem.Name = "一卡通测试ToolStripMenuItem";
-            this.一卡通测试ToolStripMenuItem.Size = new System.Drawing.Size(369, 38);
+            this.一卡通测试ToolStripMenuItem.Size = new System.Drawing.Size(247, 26);
             this.一卡通测试ToolStripMenuItem.Text = "一卡通测试";
             this.一卡通测试ToolStripMenuItem.Click += new System.EventHandler(this.一卡通测试ToolStripMenuItem_Click);
             // 
             // 高级控件ToolStripMenuItem
             // 
             this.高级控件ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.treeView资源管理ToolStripMenuItem});
+            this.treeView资源管理ToolStripMenuItem,
+            this.backgroundWorkerToolStripMenuItem});
             this.高级控件ToolStripMenuItem.Name = "高级控件ToolStripMenuItem";
-            this.高级控件ToolStripMenuItem.Size = new System.Drawing.Size(122, 38);
+            this.高级控件ToolStripMenuItem.Size = new System.Drawing.Size(81, 24);
             this.高级控件ToolStripMenuItem.Text = "高级控件";
             // 
             // treeView资源管理ToolStripMenuItem
             // 
             this.treeView资源管理ToolStripMenuItem.Name = "treeView资源管理ToolStripMenuItem";
-            this.treeView资源管理ToolStripMenuItem.Size = new System.Drawing.Size(324, 38);
+            this.treeView资源管理ToolStripMenuItem.Size = new System.Drawing.Size(225, 26);
             this.treeView资源管理ToolStripMenuItem.Text = "TreeView资源管理";
             this.treeView资源管理ToolStripMenuItem.Click += new System.EventHandler(this.treeView资源管理ToolStripMenuItem_Click);
+            // 
+            // backgroundWorkerToolStripMenuItem
+            // 
+            this.backgroundWorkerToolStripMenuItem.Name = "backgroundWorkerToolStripMenuItem";
+            this.backgroundWorkerToolStripMenuItem.Size = new System.Drawing.Size(225, 26);
+            this.backgroundWorkerToolStripMenuItem.Text = "BackgroundWorker";
+            this.backgroundWorkerToolStripMenuItem.Click += new System.EventHandler(this.backgroundWorkerToolStripMenuItem_Click);
             // 
             // 自定义控件ToolStripMenuItem
             // 
             this.自定义控件ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.用户自定义ToolStripMenuItem});
             this.自定义控件ToolStripMenuItem.Name = "自定义控件ToolStripMenuItem";
-            this.自定义控件ToolStripMenuItem.Size = new System.Drawing.Size(146, 38);
+            this.自定义控件ToolStripMenuItem.Size = new System.Drawing.Size(96, 24);
             this.自定义控件ToolStripMenuItem.Text = "自定义控件";
             // 
             // 用户自定义ToolStripMenuItem
             // 
             this.用户自定义ToolStripMenuItem.Name = "用户自定义ToolStripMenuItem";
-            this.用户自定义ToolStripMenuItem.Size = new System.Drawing.Size(324, 38);
+            this.用户自定义ToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
             this.用户自定义ToolStripMenuItem.Text = "用户自定义";
             this.用户自定义ToolStripMenuItem.Click += new System.EventHandler(this.用户自定义ToolStripMenuItem_Click);
+            // 
+            // 医保测试ToolStripMenuItem
+            // 
+            this.医保测试ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.医保测试ToolStripMenuItem1});
+            this.医保测试ToolStripMenuItem.Name = "医保测试ToolStripMenuItem";
+            this.医保测试ToolStripMenuItem.Size = new System.Drawing.Size(51, 24);
+            this.医保测试ToolStripMenuItem.Text = "医保";
+            // 
+            // 医保测试ToolStripMenuItem1
+            // 
+            this.医保测试ToolStripMenuItem1.Name = "医保测试ToolStripMenuItem1";
+            this.医保测试ToolStripMenuItem1.Size = new System.Drawing.Size(144, 26);
+            this.医保测试ToolStripMenuItem1.Text = "医保测试";
+            this.医保测试ToolStripMenuItem1.Click += new System.EventHandler(this.医保测试ToolStripMenuItem1_Click);
             // 
             // statusStrip1
             // 
@@ -247,23 +274,23 @@
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.tsslUser,
             this.tsslDatetime});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 834);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 519);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Padding = new System.Windows.Forms.Padding(0, 0, 14, 0);
-            this.statusStrip1.Size = new System.Drawing.Size(1308, 36);
+            this.statusStrip1.Padding = new System.Windows.Forms.Padding(0, 0, 9, 0);
+            this.statusStrip1.Size = new System.Drawing.Size(872, 25);
             this.statusStrip1.TabIndex = 1;
             this.statusStrip1.Text = "statusStrip1";
             // 
             // tsslUser
             // 
             this.tsslUser.Name = "tsslUser";
-            this.tsslUser.Size = new System.Drawing.Size(86, 31);
+            this.tsslUser.Size = new System.Drawing.Size(54, 20);
             this.tsslUser.Text = "操作员";
             // 
             // tsslDatetime
             // 
             this.tsslDatetime.Name = "tsslDatetime";
-            this.tsslDatetime.Size = new System.Drawing.Size(110, 31);
+            this.tsslDatetime.Size = new System.Drawing.Size(69, 20);
             this.tsslDatetime.Text = "当前时间";
             // 
             // contextMenuStrip1
@@ -273,19 +300,19 @@
             this.数据库配置ToolStripMenuItem,
             this.退出ToolStripMenuItem});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(209, 76);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(154, 52);
             // 
             // 数据库配置ToolStripMenuItem
             // 
             this.数据库配置ToolStripMenuItem.Name = "数据库配置ToolStripMenuItem";
-            this.数据库配置ToolStripMenuItem.Size = new System.Drawing.Size(208, 36);
+            this.数据库配置ToolStripMenuItem.Size = new System.Drawing.Size(153, 24);
             this.数据库配置ToolStripMenuItem.Text = "数据库配置";
             this.数据库配置ToolStripMenuItem.Click += new System.EventHandler(this.数据库配置ToolStripMenuItem_Click);
             // 
             // 退出ToolStripMenuItem
             // 
             this.退出ToolStripMenuItem.Name = "退出ToolStripMenuItem";
-            this.退出ToolStripMenuItem.Size = new System.Drawing.Size(208, 36);
+            this.退出ToolStripMenuItem.Size = new System.Drawing.Size(153, 24);
             this.退出ToolStripMenuItem.Text = "退出";
             this.退出ToolStripMenuItem.Click += new System.EventHandler(this.退出ToolStripMenuItem_Click);
             // 
@@ -313,10 +340,10 @@
             this.toolStripSeparator1,
             this.帮助LToolStripButton,
             this.toolStripButton1});
-            this.toolStrip1.Location = new System.Drawing.Point(0, 42);
+            this.toolStrip1.Location = new System.Drawing.Point(0, 26);
             this.toolStrip1.Name = "toolStrip1";
             this.toolStrip1.Padding = new System.Windows.Forms.Padding(0);
-            this.toolStrip1.Size = new System.Drawing.Size(1308, 39);
+            this.toolStrip1.Size = new System.Drawing.Size(872, 39);
             this.toolStrip1.TabIndex = 2;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -416,33 +443,25 @@
             this.timer1.Enabled = true;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
-            // 医保测试ToolStripMenuItem
+            // tabcontrolToolStripMenuItem
             // 
-            this.医保测试ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.医保测试ToolStripMenuItem1});
-            this.医保测试ToolStripMenuItem.Name = "医保测试ToolStripMenuItem";
-            this.医保测试ToolStripMenuItem.Size = new System.Drawing.Size(74, 38);
-            this.医保测试ToolStripMenuItem.Text = "医保";
-            // 
-            // 医保测试ToolStripMenuItem1
-            // 
-            this.医保测试ToolStripMenuItem1.Name = "医保测试ToolStripMenuItem1";
-            this.医保测试ToolStripMenuItem1.Size = new System.Drawing.Size(324, 38);
-            this.医保测试ToolStripMenuItem1.Text = "医保测试";
-            this.医保测试ToolStripMenuItem1.Click += new System.EventHandler(this.医保测试ToolStripMenuItem1_Click);
+            this.tabcontrolToolStripMenuItem.Name = "tabcontrolToolStripMenuItem";
+            this.tabcontrolToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
+            this.tabcontrolToolStripMenuItem.Text = "Tabcontrol";
+            this.tabcontrolToolStripMenuItem.Click += new System.EventHandler(this.tabcontrolToolStripMenuItem_Click);
             // 
             // Main
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 24F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1308, 870);
+            this.ClientSize = new System.Drawing.Size(872, 544);
             this.ContextMenuStrip = this.contextMenuStrip1;
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.menuStrip1);
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(4);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Main";
             this.Text = "Form1";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
@@ -505,6 +524,8 @@
         private System.Windows.Forms.ToolStripMenuItem 一卡通测试ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 医保测试ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 医保测试ToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem backgroundWorkerToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem tabcontrolToolStripMenuItem;
     }
 }
 

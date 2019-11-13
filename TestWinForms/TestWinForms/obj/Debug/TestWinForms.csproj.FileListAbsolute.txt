@@ -156,3 +156,5 @@ E:\YYQQ\Git\WinFormTest\TestWinForms\TestWinForms\obj\Debug\TestWinForms.csproj.
 E:\YYQQ\Git\WinFormTest\TestWinForms\TestWinForms\obj\Debug\TestWinForms.csproj.CopyComplete
 E:\YYQQ\Git\WinFormTest\TestWinForms\TestWinForms\obj\Debug\TestWinForms.exe
 E:\YYQQ\Git\WinFormTest\TestWinForms\TestWinForms\obj\Debug\TestWinForms.pdb
+E:\YYQQ\Git\WinFormTest\TestWinForms\TestWinForms\obj\Debug\TestWinForms.BackgroundWorker.resources
+E:\YYQQ\Git\WinFormTest\TestWinForms\TestWinForms\obj\Debug\TestWinForms.DynamicLoadMenu.resources

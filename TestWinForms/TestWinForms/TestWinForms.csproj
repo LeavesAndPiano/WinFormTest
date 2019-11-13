@@ -53,6 +53,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BackgroundWorker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BackgroundWorker.Designer.cs">
+      <DependentUpon>BackgroundWorker.cs</DependentUpon>
+    </Compile>
     <Compile Include="BlogDataSet.cs">
       <DependentUpon>BlogDataSet.xsd</DependentUpon>
     </Compile>
@@ -72,6 +78,12 @@
     </Compile>
     <Compile Include="Configini.Designer.cs">
       <DependentUpon>Configini.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DynamicLoadMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DynamicLoadMenu.Designer.cs">
+      <DependentUpon>DynamicLoadMenu.cs</DependentUpon>
     </Compile>
     <Compile Include="FontConfig.cs">
       <SubType>Form</SubType>
@@ -166,11 +178,17 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="BackgroundWorker.resx">
+      <DependentUpon>BackgroundWorker.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Configini.resx">
       <DependentUpon>Configini.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DataBaseConfig.resx">
       <DependentUpon>DataBaseConfig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DynamicLoadMenu.resx">
+      <DependentUpon>DynamicLoadMenu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FontConfig.resx">
       <DependentUpon>FontConfig.cs</DependentUpon>

@@ -230,5 +230,25 @@ namespace TestWinForms
             //层叠
             this.LayoutMdi(MdiLayout.Cascade);
         }
+
+        private void backgroundWorkerToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (this.formVisible("BackgroundWorker") < 0) return;
+            var farm = new BackgroundWorker();
+            farm.MdiParent = this;
+            farm.Show();
+            //层叠
+            this.LayoutMdi(MdiLayout.Cascade);
+        }
+
+        private void tabcontrolToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (this.formVisible("DynamicLoadMenu") < 0) return;
+            var farm = new DynamicLoadMenu();
+            farm.MdiParent = this;
+            farm.Show();
+            //层叠
+            this.LayoutMdi(MdiLayout.Cascade);
+        }
     }
 }
